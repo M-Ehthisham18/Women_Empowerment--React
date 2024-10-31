@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import {Link,NavLink} from 'react-router-dom'
-
+import { Link, NavLink } from "react-router-dom";
+import Navlink from "./Navlink";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleCloseMenu = (event) => {
@@ -13,26 +13,17 @@ const Header = () => {
       {/* Navigation Bar */}
       <nav className="flex justify-between items-center bg-indigo-600 p-5 relative">
         <div className="text-white text-xl font-bold">
-          <Link to='/'>Logo</Link>
+          <Link to="/">Logo</Link>
         </div>
-
         <ul className="hidden max-lg:flex space-x-6 text-white text-lg font-extrabold">
-          <li>
-            <NavLink to='/' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Home</NavLink>
-          </li>
-          <li>
-            <NavLink to='/educational-resources' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Educational Resources</NavLink>
-            
-          </li>
-          <li>
-            <NavLink to='/chatbot' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''} >Chatbot</NavLink>
-          </li>
-          <li>
-          <NavLink to='/story-blog' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Story Blog</NavLink>
-          </li>
-          <li>
-          <NavLink to='/about' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>About us</NavLink>
-          </li>
+          <Navlink route="/" name="Home" />
+          <Navlink
+            route="/educational-resources"
+            name="Educational Resources"
+          />
+          <Navlink route="/chat-bot" name="Chat Bot" />
+          <Navlink route="/story-blog" name="Story Blog" />
+          <Navlink route="about" name="About us" />
         </ul>
 
         <div className="md:block">
@@ -70,21 +61,31 @@ const Header = () => {
           </div>
 
           <ul className="flex flex-col items-center space-y-6 text-white text-2xl font-bold">
-            <li>
-              <NavLink to='/' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''} onClick={() => setIsMenuOpen(false)}>Home</NavLink>
-            </li>
-            <li>
-            <NavLink to='/educational-resources' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Educational Reasources</NavLink>
-            </li>
-            <li>
-            <NavLink to='/chatbot' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Chatbot</NavLink>
-            </li>
-            <li>
-            <NavLink to='/story-blog' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Story Blog</NavLink>
-            </li>
-            <li>
-            <NavLink to='/about' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>About us</NavLink>
-            </li>
+            <Navlink
+              route="/"
+              name="Home"
+              onclickfun="onClick={() => setIsMenuOpen(false)}"
+            />
+            <Navlink
+              route="/educational-resources"
+              name="Educational Resources"
+              onclickfun="onClick={() => setIsMenuOpen(false)}"
+            />
+            <Navlink
+              route="/chat-bot"
+              name="Chat Bot"
+              onclickfun="onClick={() => setIsMenuOpen(false)}"
+            />
+            <Navlink
+              route="/story-blog"
+              name="Story Blog"
+              onclickfun="onClick={() => setIsMenuOpen(false)}"
+            />
+            <Navlink
+              route="about"
+              name="About us"
+              onclickfun="onClick={() => setIsMenuOpen(false)}"
+            />
           </ul>
         </div>
       )}
