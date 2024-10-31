@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link,NavLink} from 'react-router-dom'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,34 +13,25 @@ const Header = () => {
       {/* Navigation Bar */}
       <nav className="flex justify-between items-center bg-indigo-600 p-5 relative">
         <div className="text-white text-xl font-bold">
-          <a href="#">Logo</a>
+          <Link to='/'>Logo</Link>
         </div>
 
-        <ul className="hidden max-lg:flex space-x-6">
+        <ul className="hidden max-lg:flex space-x-6 text-white text-lg font-extrabold">
           <li>
-            <a href="#" className="text-white text-lg">
-              Home
-            </a>
+            <NavLink to='/' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Home</NavLink>
           </li>
           <li>
-            <a href="#" className="text-white text-lg">
-              Educational Resources
-            </a>
+            <NavLink to='/educational-resources' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Educational Resources</NavLink>
+            
           </li>
           <li>
-            <a href="#" className="text-white text-lg">
-              Chat Bot
-            </a>
+            <NavLink to='/chatbot' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''} >Chatbot</NavLink>
           </li>
           <li>
-            <a href="#" className="text-white text-lg">
-              Stories Blog
-            </a>
+          <NavLink to='/story-blog' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>Story Blog</NavLink>
           </li>
           <li>
-            <a href="#" className="text-white text-lg">
-              About Us
-            </a>
+          <NavLink to='/about' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}>About us</NavLink>
           </li>
         </ul>
 
@@ -77,31 +69,21 @@ const Header = () => {
             </span>
           </div>
 
-          <ul className="flex flex-col items-center space-y-6 text-white text-2xl">
+          <ul className="flex flex-col items-center space-y-6 text-white text-2xl font-bold">
             <li>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
-                Home
-              </a>
+              <NavLink to='/' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''} onClick={() => setIsMenuOpen(false)}>Home</NavLink>
             </li>
             <li>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
-                Educational Resources
-              </a>
+            <NavLink to='/educational-resources' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Educational Reasources</NavLink>
             </li>
             <li>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
-                Chat Bot
-              </a>
+            <NavLink to='/chatbot' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Chatbot</NavLink>
             </li>
             <li>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
-                Stories Blog
-              </a>
+            <NavLink to='/story-blog' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>Story Blog</NavLink>
             </li>
             <li>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
-                About Us
-              </a>
+            <NavLink to='/about' className={({isActive})=> isActive ? 'bg-white p-2 rounded-md text-violet-700 transition-all' : ''}  onClick={() => setIsMenuOpen(false)}>About us</NavLink>
             </li>
           </ul>
         </div>
