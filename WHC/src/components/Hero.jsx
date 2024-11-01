@@ -4,7 +4,13 @@ const Hero = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="flex flex-col lg:flex-row justify-between items-center p-10 lg:p-20 bg-[url('./assets/bg2.webp')] bg-no-repeat bg-center bg-cover shadow-[11px_5px_20px_0px_gray] rounded-[12px]">
+      <div className="bg-gradient-to-b from-blue-500 to-teal-500 x-10">
+      <section className="flex flex-col lg:flex-row justify-between items-center p-10 lg:p-20 bg-[url('./assets/bg2.webp')] bg-no-repeat bg-center bg-cover  rounded-[12px] relative min-h-[500px]
+      style={{ boxShadow: '13px 9px 14px #fef4f7' }}">
+      <div className="absolute top-0 left-0 w-full h-full" 
+         style={{ background: 'linear-gradient(180deg, rgba(240,178,178,0) 61%, rgba(255,244,247,1) 96%)' }}>
+      {/* Content goes here */}
+    </div>
         <div className="max-w-lg mb-8 lg:mb-0">
           <h1 className="text-4xl lg:text-6xl font-bold text-indigo-600 mb-4">
             Empowering Women's Health
@@ -22,12 +28,13 @@ const Hero = () => {
         </div>
         <div className="lg:w-1/2 md:w-[50%] w-[70%]">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF-AMoZBQD7tXrRhSS_1mB5j-oPrFILYJtsA&s"
-            alt="Women's Health"
+            src="src/assets/womens.png"
+            alt="Women's"
             className="rounded-lg shadow-lg mix-blend-luminosity w-full"
           />
         </div>
       </section>
+      </div>
     </>
   );
 };

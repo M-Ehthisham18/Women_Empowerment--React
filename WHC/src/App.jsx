@@ -7,6 +7,7 @@ import Educationalresources from './pages/Educationalresources'
 import Chatbot from './pages/Chatbot'
 
 function App() {
+  // const API_KEY = `AIzaSyAeU8QRUE6k4MSnFzvyqlkPr4a0-TneNWo`; gemini api 
 
   return (
     <>
