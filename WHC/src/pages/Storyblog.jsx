@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Storyblog = () => {
-  return (
-    <div>
-      Storyblog page
+  return <div>Storyblog page</div>;
+};
 
-    </div>
-  )
-}
-
-export default Storyblog
+export default Storyblog;

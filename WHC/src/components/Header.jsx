@@ -58,7 +58,10 @@ const Header = () => {
         </div>
         <ul className="hidden max-lg:flex space-x-6 text-white text-lg font-extrabold items-center">
           <Navlink route="/" name="Home" />
-          <Navlink route="/educational-resources" name="Educational Resources"/>
+          <Navlink
+            route="/educational-resources"
+            name="Educational Resources"
+          />
           <Navlink route="/chat-bot" name="Chat Bot" />
           <Navlink route="/story-blog" name="Story Blog" />
           <Navlink route="about" name="About us" />
@@ -109,7 +112,7 @@ const Header = () => {
                 name="Educational Resources"
               />
             </div>
-            <div onClick={() => setIsMenuOpen(false)} >
+            <div onClick={() => setIsMenuOpen(false)}>
               <Navlink route="/chat-bot" name="Chat Bot" />
             </div>
             <div onClick={() => setIsMenuOpen(false)}>
