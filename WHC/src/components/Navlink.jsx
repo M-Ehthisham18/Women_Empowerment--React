@@ -1,18 +1,23 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-const Navlink = ({ route, name }) => {
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+const Navlink = ({ icon = "", route="/", name="*" }) => {
+  
   return (
     <NavLink
       to={route}
-      className={({ isActive }) =>
-        isActive
-          ? " bg-white opacity-95 p-2 rounded-md text-violet-700 transition-all"
-          : ""
+      className={({ isActive }) =>  
+        `flex gap-x-2 transition-all ${isActive ? "bg-white opacity-95 p-2 rounded-md text-violet-700 " : ""}`
       }
     >
-      {name}
+      {/* Conditional rotation for the icon */}
+      <span>
+        {icon}
+      </span>
+      <span>{name}</span>
     </NavLink>
   );
 };
 
 export default Navlink;
+

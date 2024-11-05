@@ -4,14 +4,14 @@ import MenuButton from "../MenuButton";
 import Navlink from "../../components/Navlink";
 function SideBarMenu() {  
   const [isOpen, setIsOpen] = useState(false) 
-
+  const icon = <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" fill="white" className="mix-blend-difference" /></svg>
   return (
     <div className="flex ">
       {/* SideBarMenu */}
       <div
         className={`fixed inset-y-0 z-20 left-0 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out bg-[#5045e5] text-white w-64 p-5`}
+        } transition-transform duration-300 ease-in-out bg-[#5045e5] text-white w-[270px] p-5`}
       >
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -41,15 +41,15 @@ function SideBarMenu() {
           {/* <h2 className="text-3xl font-bold mb-12">
             <Navlink name="Resources" route="/resources" />
           </h2> */}
-          <div className="flex flex-col items-start gap-y-4 text-xl font-semibold">
-            <Navlink name="Health" route="/resources-health" />
-            <Navlink name="Education" route="/resources-education" />
-            <Navlink name="Challenges" route="/resources-challenges" />
-            <Navlink
+          <div className="flex flex-col items-start  gap-y-4 text-xl font-semibold ">
+            <Navlink icon={icon} name="Health" route="/resources-health" />
+            <Navlink icon={icon} name="Education" route="/resources-education" />
+            <Navlink icon={icon} name="Challenges" route="/resources-challenges" />
+            <Navlink icon={icon}
               name="Gender Equality"
               route="/resources-gender-equality"
             />
-            <Navlink name="Child & Adult" route="/resources-child-and-adult" />
+            <Navlink icon={icon} name="Child & Adult" route="/resources-child-and-adult" />
           </div>
         </div>
       </div>
