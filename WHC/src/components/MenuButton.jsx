@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import SideBarMenu from './SideBarMenu'
+import SideBarMenu from './Resources/SideBarMenu'
 
 const Button = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,10 +18,7 @@ const Button = () => {
           </svg>
         </div>
       </button>
-      <div className='absolute -top-4 -left-4 w-[300px] '>
-
-      {isOpen && <SideBarMenu/> }
-      </div>
+      
     </StyledWrapper>
   );
 }
