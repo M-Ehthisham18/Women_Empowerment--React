@@ -97,9 +97,10 @@ const Header = () => {
 
       {/* Overlay Menu */}
       {isMenuOpen && (
-        <div
+        <div 
           id="overlay"
           className="fixed inset-0 z-50 bg-indigo-600 bg-opacity-95 w-fit min-w-[300px] top-[68px] left-auto max-lg:hidden"
+          
           onClick={handleCloseMenu}
         >
           <ul className="flex flex-col items-center space-y-6 text-white text-2xl font-bold pt-12">

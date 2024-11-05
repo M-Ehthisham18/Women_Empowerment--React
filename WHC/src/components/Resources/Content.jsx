@@ -79,10 +79,10 @@ const content = ({
         {sol41 && <li>{sol41}</li>}
         </ul>
       </div> }
-      <h2 className="text-2xl font-extrabold text-violet-950 mb-8 text-center pt-14 border-t-2 border-solid border-gray-300">
+      <h2 className="text-2xl font-extrabold text-violet-950 my-8 text-center pt-10  border-t-2 border-solid border-gray-300">
         {conclusion}
       </h2>
-      <p className="text-center font-serif italic tracking-wider mb-4">
+      <p className="text-center font-serif italic tracking-wider mb-12">
         {conclusionDesc}
       </p>
       {content}
