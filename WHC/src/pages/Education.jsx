@@ -3,6 +3,7 @@ import SideBar from "../components/Resources/SideBar";
 import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
+import Askme from "../components/Askme";
 const Education = () => {
   const title = ` Education
 Challenges Faced by Women`;
@@ -62,6 +63,7 @@ Early Marriages and Cultural Norms: Many young girls are forced into marriage at
           conclusionDesc={conclusionDesc}
         />
       </div>
+      <Askme/>
       <div className="max-lg:row-start-2 max-lg:col-start-3 max-lg:row-end-3 max-lg:col-end-[-3]">
         <Footer />
       </div>

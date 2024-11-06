@@ -3,6 +3,7 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import SideBar from "../components/Resources/SideBar";
 import Content from "../components/Resources/Content";
 import Footer from '../components/Footer'
+import Askme from '../components/Askme'
 
 const Resources = () => {
   // grid grid-cols-[1.5fr_1fr]
@@ -34,6 +35,7 @@ const Resources = () => {
           conclusionDesc='These multi-dimensional strategies, when implemented cohesively, can significantly improve the quality of life for women, ensuring they have equal opportunities to succeed. The ripple effects of empowerment not only benefit women but contribute to more just and prosperous communities worldwide.'
         />
       </div>
+      <Askme/>
       <div className="max-lg:row-start-2 max-lg:col-start-3 max-lg:row-end-3 max-lg:col-end-[-3]">
       <Footer/>
       </div>

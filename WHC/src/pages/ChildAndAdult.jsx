@@ -3,6 +3,7 @@ import SideBar from "../components/Resources/SideBar";
 import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
+import Askme from "../components/Askme";
 const ChildAndAdult = () => {
   const title = `Child and Adult Trauma: Challenges and Solutions`;
   const titleDesc = `Trauma—especially stemming from childhood abuse, neglect, or exposure to violence—can have significant, long-term impacts on mental health. Research underscores how childhood trauma increases susceptibility to mental health issues, affecting self-esteem, relationships, and life outcomes. Children who witness or experience violence often develop heightened vigilance, difficulty trusting others, and maladaptive coping mechanisms, such as emotional detachment or perfectionism, which may persist into adulthood. This unresolved trauma contributes to anxiety, depression, and even post-traumatic stress disorder (PTSD) in later years.`;
@@ -67,6 +68,7 @@ const ChildAndAdult = () => {
           conclusionDesc={conclusionDesc}
         />
       </div>
+      <Askme/>
       <div className="max-lg:row-start-2 max-lg:col-start-3 max-lg:row-end-3 max-lg:col-end-[-3]">
         <Footer />
       </div>

@@ -3,6 +3,7 @@ import SideBar from "../components/Resources/SideBar";
 import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
+import Askme from "../components/Askme";
 const Challenges = () => {
   const title = `Challenges Faced by Women`;
   const titleDesc = `Sexual abuse and harassment remain significant issues that disproportionately impact women worldwide, with both immediate and long-term social and psychological effects. Below is a detailed exploration of the challenges faced, accompanied by solutions and actionable approaches that aim to reduce the incidence of these issues.`;
@@ -61,6 +62,7 @@ const Challenges = () => {
           conclusionDesc={conclusionDesc}
         />
       </div>
+      <Askme/>
       <div className="max-lg:row-start-2 max-lg:col-start-3 max-lg:row-end-3 max-lg:col-end-[-3]">
         <Footer />
       </div>

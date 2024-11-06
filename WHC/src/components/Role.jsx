@@ -7,6 +7,7 @@ const Role = () => {
         <h2 className="text-center text-indigo-800 text-3xl font-extrabold mb-4">
           Women as Pillars: Nurturers, Partners, and Legacy Bearers
         </h2>
+        <img src="src/assets/home/women-roll-img.jpg" alt="img" className="max-h-[400px] m-auto my-8 rounded shadow-sm" />
         <p className="text-center md:pr-6">
           Women play indispensable roles in society as{" "}
           <span className="text-indigo-600 font-semibold">

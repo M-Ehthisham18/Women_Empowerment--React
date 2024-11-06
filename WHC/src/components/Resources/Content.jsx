@@ -39,7 +39,7 @@ const content = ({
       </h2>
       <div className={`${img1 ? "mb-6 max-lg:mb-24" : ""}`}>
         <p className="px-5 font-system-ui tracking-wider mb-4">{para1}</p>
-        <div className="p-6 max-h-[375px] w-full ">
+        <div className="p-6 max-h-[375px] w-full max-w-[700px] m-auto ">
           <img src={img1} alt={alt1} width="100%" height="100%" className="max-h-[375px]" />
         </div>
       </div>

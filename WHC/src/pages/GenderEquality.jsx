@@ -3,6 +3,7 @@ import SideBar from "../components/Resources/SideBar";
 import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
+import Askme from "../components/Askme";
 const GenderEquality = () => {
   const title = `Gender Equality: Challenges and Solutions`;
   const titleDesc = `Gender equality remains a pressing global issue, with women and marginalized genders facing systemic barriers in areas like education, employment, healthcare, and political representation. Despite progress, women still earn less than men, face gender-based violence, and have limited access to leadership roles.`;
@@ -68,6 +69,7 @@ const GenderEquality = () => {
           conclusionDesc={conclusionDesc}
         />
       </div>
+      <Askme/>
       <div className="max-lg:row-start-2 max-lg:col-start-3 max-lg:row-end-3 max-lg:col-end-[-3]">
         <Footer />
       </div>

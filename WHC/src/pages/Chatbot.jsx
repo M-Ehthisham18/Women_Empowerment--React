@@ -78,10 +78,10 @@ const Chatbot = () => {
                 <h2 className="text-2xl font-bold text-blue-600 mb-4">
                   Welcome to WHC AI! 👋
                 </h2>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-600 mb-4 leading-8">
                   I'm here to help you with anything you'd like to know. You can
                   ask me... <br />
-                  Double Click
+                  <span className="italic">I'm here to support you emotionally (feel free to share...)</span>
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
                   <button

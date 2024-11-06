@@ -1,3 +1,4 @@
+import {NavLink, Link} from 'react-router-dom'
 const Hero = () => {
   return (
     <>
@@ -24,12 +25,14 @@ const Hero = () => {
               Join us in creating a world where women have access to vital
               healthcare and education for a better future.
             </p>
-            <a
-              href="#"
-              className="bg-indigo-600 text-white py-3 px-6 rounded-full hover:bg-indigo-700 transition duration-300"
+            <button className='animate-pulse lg:block hidden '>
+            <NavLink
+              to='/resources'
+              className="bg-indigo-600 text-white py-3 px-6 rounded-full hover:bg-indigo-700 transition duration-300 cursor-pointer "
             >
-              Learn More
-            </a>
+              Scroll Down ↓
+            </NavLink>
+            </button>
           </div>
           <div className="lg:w-1/2 md:w-[50%] w-[70%]">
             <img
