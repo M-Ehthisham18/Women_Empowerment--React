@@ -1,6 +1,7 @@
 import React from "react";
 
 const Education = () => {
+  const img=`src/assets/home/education-img.jpg`
   return (
     <>
       <article
@@ -13,7 +14,7 @@ const Education = () => {
 
         <div className="avatar flex justify-center row-start-2 row-end-3 md:col-span-1">
           <img
-            src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+            src={img}
             alt="Avatar"
             className="w-[clamp(200px,100%,320px)]"
           />

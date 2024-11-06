@@ -11,6 +11,8 @@ Challenges Faced by Women`;
 
   const heading1 = `1. Physical Health`;
   const para1 = `Women face unique physical health challenges, especially in reproductive and maternal health. Conditions related to pregnancy and childbirth contribute significantly to health risks for women. In 2013, almost 300,000 women died from pregnancy-related complications, largely preventable if essential services were available. Cervical and breast cancers are also pressing health concerns, with approximately 500,000 deaths yearly, especially in low-income regions that lack adequate screening and treatment services.`;
+  const img1="src/assets/health-img.jpg";
+  const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;
   const sol11 = `Improved Access to Maternal Health Services: Ensuring that women in underserved regions have access to essential maternal care, including antenatal visits and safe childbirth facilities, can drastically reduce maternal mortality rates.`;
@@ -43,6 +45,8 @@ Challenges Faced by Women`;
           titleDesc={titleDesc}
           heading1={heading1}
           para1={para1}
+          img1={img1}
+          alt1={alt1}
           solHd={solHd}
           sol11={sol11}
           sol12={sol12}

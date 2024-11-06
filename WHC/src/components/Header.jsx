@@ -52,11 +52,19 @@ const Header = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <nav className="flex justify-between items-center bg-indigo-600 py-5 px-9 relative">
-        <div className="text-white text-xl font-bold">
-          <Link to="/">Logo</Link>
+      <nav className="flex justify-between items-center bg-indigo-600 max-lg:py-5 sm:px-6 px-5 py-3 relative">
+        <div className="text-white text-xl font-bold leading-5 xl:w-[unset] w-[20%]">
+          <Link to="/">
+            <div className="w-[48px] h-[48px] rounded-full bg-white flex items-center gap-x-3 ">
+              <img src="src/assets/whc-icon-2.png" width="100%" alt="" />
+              <div >
+                <span>WOMEN</span><br />
+                <span>EMPOWERMENT</span>
+              </div>
+            </div>
+          </Link>
         </div>
-        <ul className="hidden max-lg:flex space-x-6 text-white text-lg font-extrabold items-center">
+        <ul className="hidden max-lg:flex lg:space-x-6 text-white text-lg font-extrabold items-center">
           <Navlink route="/" name="Home" />
           <Navlink
             route="/resources"

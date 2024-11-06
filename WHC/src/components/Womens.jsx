@@ -1,6 +1,7 @@
 import React from "react";
 
 const Women = () => {
+  const img = `src/assets/home/women-img.webp`
   return (
     <article
       id="women"
@@ -26,7 +27,8 @@ const Women = () => {
       </div>
       <div className="avatar flex justify-center row-start-2 row-end-3 md:row-span-2 md:col-span-1 ">
         <img
-          src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+          // src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+          src={img}
           alt="Avatar"
           className="w-[clamp(200px,100%,320px)]"
         />

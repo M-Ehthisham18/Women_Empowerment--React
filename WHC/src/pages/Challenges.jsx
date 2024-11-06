@@ -9,6 +9,8 @@ const Challenges = () => {
 
   const heading1 = `1. Prevalence of Sexual Violence:`;
   const para1 = `According to the World Health Organization (WHO), approximately one in three women globally experience physical or sexual violence in their lifetime. This issue spans cultures and geographies, affecting women in both public and private spaces. Incidents of intimate partner violence are particularly prevalent, but women also face harassment and assault from non-partners, with many cases remaining unreported due to social stigma and fear of retaliation​.`;
+  const img1="src/assets/violance-img.jpg";
+  const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;
   const sol11 = `Legal Protections and Reforms: Strengthening legal frameworks to protect women from sexual abuse and harassment is crucial. Clear laws against workplace harassment, supported by enforceable policies, can deter potential offenders. Establishing accessible reporting mechanisms and ensuring that complaints are handled with confidentiality and sensitivity can empower women to come forward. Countries with strong legal protections against gender-based violence tend to report lower incidence rates, as laws serve as both a deterrent and a tool for justice.`;
@@ -42,6 +44,8 @@ const Challenges = () => {
           titleDesc={titleDesc}
           heading1={heading1}
           para1={para1}
+          img1={img1}
+          alt1={alt1}
           solHd={solHd}
           sol11={sol11}
           sol12={sol12}

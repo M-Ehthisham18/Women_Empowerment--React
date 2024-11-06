@@ -1,6 +1,7 @@
 import React from "react";
 
 const Safety = () => {
+  const img =`src/assets/home/safety-img.jpg`
   return (
     <>
       <article
@@ -31,11 +32,11 @@ const Safety = () => {
           </span>
           , are vital in creating safe environments where women can thrive.
         </div>
-        <div className="avatar flex justify-center row-start-2 row-end-3 md:row-span-2 ">
+        <div className="avatar flex justify-center row-start-2 row-end-3 md:row-span-2 rounded-full overflow-hidden ">
           <img
-            src="https://img.freepik.com/premium-vector/avatar-icon002_750950-52.jpg"
+            src={img}
             alt="Avatar"
-            className="w-[clamp(200px,100%,320px)]"
+            className="w-[clamp(200px,100%,320px)] "
           />
         </div>
       </article>

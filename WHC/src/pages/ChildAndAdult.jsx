@@ -9,6 +9,8 @@ const ChildAndAdult = () => {
 
   const heading1 = `1. Limited Access to Trauma-Informed Mental Health Services`;
   const para1 = ` Many women, especially in underserved or rural areas, lack access to mental health services tailored to trauma recovery. Trauma-informed care is essential for addressing PTSD and other effects of trauma, but it remains scarce due to limited resources, funding, and the availability of trained professionals`;
+  const img1="src/assets/trauma-img.jpg";
+  const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;
   const sol11 = `Trauma-Informed Counseling and Support: Expanding access to trauma-specific mental health services is crucial. Trauma-informed counseling focuses on building a safe, trust-based environment where survivors feel empowered to process their experiences. Support groups and services like Rape Crisis Centers can provide validation and help survivors build resilience, promoting long-term healing through structured, sensitive interventions.`;
@@ -45,6 +47,8 @@ const ChildAndAdult = () => {
           titleDesc={titleDesc}
           heading1={heading1}
           para1={para1}
+          img1={img1}
+          alt1={alt1}
           solHd={solHd}
           sol11={sol11}
           sol12={sol12}

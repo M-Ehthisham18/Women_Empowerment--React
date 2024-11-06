@@ -5,6 +5,9 @@ import Content from "../components/Resources/Content";
 import Footer from '../components/Footer'
 
 const Resources = () => {
+  // grid grid-cols-[1.5fr_1fr]
+  const img1= "src/assets/ Empowerment-img.jpg"
+  const alt1="Image..."
   return (
     <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
       <div>
@@ -21,6 +24,8 @@ const Resources = () => {
           titleDesc="Empowering women through technology, education, and community support plays a critical role in achieving gender equity. Strategies like online platforms, self-defense programs, and educational campaigns are transforming lives, offering women both practical resources and psychological resilience."
           heading1='1. Technology as a Tool for Safety and Empowerment'
           para1='Mobile apps, websites, and helplines provide women with immediate access to safety resources, legal assistance, and support networks. For example, UN Women reports that global innovations like SafeCity and Hollaback help women report harassment anonymously, mapping unsafe areas and raising awareness of gender-based violence. Technology also connects women with remote healthcare, legal resources, and training in fields traditionally dominated by men, fostering both security and economic empowerment. The significance of this is underscored by statistics showing that women constitute nearly 40% of the world’s informal economy, often with limited protections, making these resources vital for financial stability.'
+          img1={img1}
+          alt1={alt1}
           heading2='2. Self-Defense and Empowerment Programs'
           para2='Many organizations partner with community centers to offer self-defense training, instilling confidence in women. Empowerment workshops emphasize personal agency, helping women to feel safer in public spaces. According to UN reports, an estimated one in three women worldwide has experienced physical or sexual violence, highlighting the urgent need for self-defense programs. These programs, combined with legal advocacy, provide tangible skills and foster solidarity among women.'
           heading3='3. Educational Campaigns for Rights Awareness'

@@ -9,6 +9,8 @@ const GenderEquality = () => {
 
   const heading1 = `1. Workplace Inequality`;
   const para1 = ` Women continue to experience substantial inequality in the workforce. The World Economic Forum’s 2023 Global Gender Gap Report highlights that globally, women are underrepresented in leadership and earn less than men in similar roles. At this pace, achieving workplace gender parity could take more than a century. This inequality includes a "motherhood penalty," where women with children often face discrimination in hiring, promotions, and salary negotiations, further widening the gender gap.`;
+  const img1="src/assets/gender-equality-img.jpg";
+  const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;
   const sol11 = `Policy and Legal Reform: Implementing and enforcing laws that mandate equal pay and anti-discrimination policies is crucial. For instance, the European Union has taken steps to reduce the gender pay gap through transparency laws that require companies to disclose salary information. Additionally, promoting quotas or targets for women’s representation in political and corporate spaces can increase gender diversity and inclusivity.`;
@@ -46,6 +48,8 @@ const GenderEquality = () => {
           titleDesc={titleDesc}
           heading1={heading1}
           para1={para1}
+          img1={img1}
+          alt1={alt1}
           solHd={solHd}
           sol11={sol11}
           sol12={sol12}
