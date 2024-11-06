@@ -1,7 +1,8 @@
 import React from "react";
+import img from '../assets/home/education-img.jpg'
 
 const Education = () => {
-  const img=`src/assets/home/education-img.jpg`
+
   return (
     <>
       <article

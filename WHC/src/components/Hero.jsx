@@ -1,4 +1,5 @@
-import {NavLink, Link} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom';
+import Womens from '../assets/womens.png'
 const Hero = () => {
   return (
     <>
@@ -36,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="lg:w-1/2 md:w-[50%] w-[70%]">
             <img
-              src="src/assets/womens.png"
+              src={Womens}
               alt="Women's"
               className="rounded-lg shadow-lg mix-blend-luminosity w-full"
             />

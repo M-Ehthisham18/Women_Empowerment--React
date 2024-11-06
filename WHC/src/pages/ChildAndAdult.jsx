@@ -4,13 +4,14 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
 import Askme from "../components/Askme";
+import img1 from '../assets/resources/trauma-img.jpg'
+
 const ChildAndAdult = () => {
   const title = `Child and Adult Trauma: Challenges and Solutions`;
   const titleDesc = `Trauma—especially stemming from childhood abuse, neglect, or exposure to violence—can have significant, long-term impacts on mental health. Research underscores how childhood trauma increases susceptibility to mental health issues, affecting self-esteem, relationships, and life outcomes. Children who witness or experience violence often develop heightened vigilance, difficulty trusting others, and maladaptive coping mechanisms, such as emotional detachment or perfectionism, which may persist into adulthood. This unresolved trauma contributes to anxiety, depression, and even post-traumatic stress disorder (PTSD) in later years.`;
 
   const heading1 = `1. Limited Access to Trauma-Informed Mental Health Services`;
   const para1 = ` Many women, especially in underserved or rural areas, lack access to mental health services tailored to trauma recovery. Trauma-informed care is essential for addressing PTSD and other effects of trauma, but it remains scarce due to limited resources, funding, and the availability of trained professionals`;
-  const img1="src/assets/trauma-img.jpg";
   const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;

@@ -4,13 +4,14 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
 import Askme from "../components/Askme";
+import img1 from '../assets/resources/gender-equality-img.jpg'
+
 const GenderEquality = () => {
   const title = `Gender Equality: Challenges and Solutions`;
   const titleDesc = `Gender equality remains a pressing global issue, with women and marginalized genders facing systemic barriers in areas like education, employment, healthcare, and political representation. Despite progress, women still earn less than men, face gender-based violence, and have limited access to leadership roles.`;
 
   const heading1 = `1. Workplace Inequality`;
   const para1 = ` Women continue to experience substantial inequality in the workforce. The World Economic Forum’s 2023 Global Gender Gap Report highlights that globally, women are underrepresented in leadership and earn less than men in similar roles. At this pace, achieving workplace gender parity could take more than a century. This inequality includes a "motherhood penalty," where women with children often face discrimination in hiring, promotions, and salary negotiations, further widening the gender gap.`;
-  const img1="src/assets/gender-equality-img.jpg";
   const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;

@@ -4,6 +4,8 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from '../components/Footer'
 import Askme from "../components/Askme";
+import img1 from '../assets/resources/health-img.jpg'
+
 
 const Health = () => {
   const title = `Physical, Mental, and Sexual Health
@@ -12,7 +14,6 @@ Challenges Faced by Women`;
 
   const heading1 = `1. Physical Health`;
   const para1 = `Women face unique physical health challenges, especially in reproductive and maternal health. Conditions related to pregnancy and childbirth contribute significantly to health risks for women. In 2013, almost 300,000 women died from pregnancy-related complications, largely preventable if essential services were available. Cervical and breast cancers are also pressing health concerns, with approximately 500,000 deaths yearly, especially in low-income regions that lack adequate screening and treatment services.`;
-  const img1="src/assets/health-img.jpg";
   const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;

@@ -1,7 +1,8 @@
 import React from "react";
+import img from '../assets/home/health-img.jpg'
 
 const Health = () => {
-  const img = `src/assets/home/health-img.jpg`
+
   return (
     <article
       id="health"

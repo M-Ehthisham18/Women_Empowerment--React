@@ -4,10 +4,9 @@ import SideBar from "../components/Resources/SideBar";
 import Content from "../components/Resources/Content";
 import Footer from '../components/Footer'
 import Askme from '../components/Askme'
+import img1 from '../assets/resources/ Empowerment-img.jpg'
 
 const Resources = () => {
-  // grid grid-cols-[1.5fr_1fr]
-  const img1= "src/assets/ Empowerment-img.jpg"
   const alt1="Image..."
   return (
     <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">

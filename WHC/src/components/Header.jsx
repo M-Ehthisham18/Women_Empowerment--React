@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Navlink from "./Navlink";
 import styled from "styled-components";
+import WHCIcon from './../assets/whc-icon-2.png'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleCloseMenu = (event) => {
@@ -56,7 +57,7 @@ const Header = () => {
         <div className="text-white text-xl font-bold leading-5 xl:w-[unset] w-[20%]">
           <NavLink to="/">
             <div className="w-[48px] h-[48px] rounded-full bg-white flex items-center gap-x-3 ">
-              <img src="src/assets/whc-icon-2.png" width="100%" alt="" />
+              <img src={WHCIcon} width="100%" alt="" />
               <div className="border-l-[.75px] border-gray-200 pl-2">
                 <span>WOMEN</span><br />
                 <span>EMPOWERMENT</span>

@@ -4,6 +4,8 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
 import Askme from "../components/Askme";
+import img1 from '../assets/resources/education-img-1.jpg'
+
 const Education = () => {
   const title = ` Education
 Challenges Faced by Women`;
@@ -12,7 +14,6 @@ Early Marriages and Cultural Norms: Many young girls are forced into marriage at
 
   const heading1 = `1. Limited Access to Quality Education`;
   const para1 = `Across low-income and rural areas, girls often lack access to education. UNESCO estimates that over 250 million children worldwide remain out of school, with 130 million of them being girls. Economic barriers, school fees, and lack of nearby facilities particularly hinder education for girls in rural areas. This educational gap can exacerbate poverty cycles and gender inequality, affecting future economic opportunities for girls.`;
-  const img1="src/assets/education-img-1.jpg";
   const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches`;

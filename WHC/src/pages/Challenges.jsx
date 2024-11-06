@@ -4,13 +4,14 @@ import SideBarMenu from "../components/Resources/SideBarMenu";
 import Content from "../components/Resources/Content";
 import Footer from "../components/Footer";
 import Askme from "../components/Askme";
+import img1 from '../assets/resources/violance-img.jpg'
+
 const Challenges = () => {
   const title = `Challenges Faced by Women`;
   const titleDesc = `Sexual abuse and harassment remain significant issues that disproportionately impact women worldwide, with both immediate and long-term social and psychological effects. Below is a detailed exploration of the challenges faced, accompanied by solutions and actionable approaches that aim to reduce the incidence of these issues.`;
 
   const heading1 = `1. Prevalence of Sexual Violence:`;
   const para1 = `According to the World Health Organization (WHO), approximately one in three women globally experience physical or sexual violence in their lifetime. This issue spans cultures and geographies, affecting women in both public and private spaces. Incidents of intimate partner violence are particularly prevalent, but women also face harassment and assault from non-partners, with many cases remaining unreported due to social stigma and fear of retaliation​.`;
-  const img1="src/assets/violance-img.jpg";
   const alt1=`{${title}} image`
 
   const solHd = `Solutions and Approaches:`;

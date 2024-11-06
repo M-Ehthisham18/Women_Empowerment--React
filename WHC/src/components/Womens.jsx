@@ -1,7 +1,8 @@
 import React from "react";
+import img from '../assets/home/women-img.webp'
 
 const Women = () => {
-  const img = `src/assets/home/women-img.webp`
+
   return (
     <article
       id="women"
