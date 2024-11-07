@@ -112,7 +112,7 @@ const About = () => {
             </li>
             <li>
               <span className="font-semibold">Community Forum:</span> Here is a numbered list describing the online communities that support women's empowerment and their respective links:    
-              <ul className="px-12 py-6">
+              <ul className="px-6 md:px-12 py-6">
         {communityData.map((community, index) => (
           <li key={index} className="list-decimal">
             <strong>{community.name}</strong><br />

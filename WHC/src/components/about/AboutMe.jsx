@@ -2,7 +2,7 @@ import React from "react";
 import Card from './Card'
 const AboutMe = () => {
   return (
-    <section className="  bg-white rounded-lg shadow-lg p-8 mb-8 ">
+    <section className="  bg-white rounded-lg shadow-lg p-4 md:p-8 w-[288px] mb-8 ">
       <div className="md:flex">
       <div className="md:w-[60%]">
       <h2 className="text-3xl font-bold text-purple-700 mb-4 text-center">About Me</h2>
