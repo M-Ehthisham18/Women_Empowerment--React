@@ -22,7 +22,7 @@ const Storyblog = () => {
         <h2 className="text-center text-2xl max-lg:text-3xl text-violet-900 font-extrabold px-6 py-8">
           Unfiltered Inspiration: Real Stories of Resilience
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 max-lg:grid-cols-3 w-full place-items-center gap-y-16 gap-x-1 m-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-lg:grid-cols-3 w-full place-items-center gap-y-16 gap-x-1 m-auto mb-32">
           <Card
             title="Assistant Secretary-General for Safety and Security"
             author="Mbaranga Gasarabwe"
