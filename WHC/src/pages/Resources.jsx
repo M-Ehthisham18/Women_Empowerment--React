@@ -9,7 +9,7 @@ import img1 from '../assets/resources/ Empowerment-img.jpg'
 const Resources = () => {
   const alt1="Image..."
   return (
-    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
+    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 max-w-[1500px] m-auto">
       <div>
         <aside className="max-lg:hidden">
           <SideBarMenu />

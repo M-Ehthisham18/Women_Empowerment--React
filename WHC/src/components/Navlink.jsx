@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navlink = ({ icon = "", route="/", name="*" }) => {
-  console.log(icon);
   
   
   return (

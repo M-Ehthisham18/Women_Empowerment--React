@@ -65,7 +65,7 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="fixed -z-10 pt-[115px] inset-0 bg-gradient-to-r from-blue-50 to-blue-100">
+    <div className="fixed -z-10 pt-[115px] inset-0 bg-gradient-to-r from-blue-50 to-blue-100 max-w-[1400px] m-auto">
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Scrollable Chat Container */}
         <div

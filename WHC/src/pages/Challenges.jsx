@@ -31,7 +31,7 @@ const Challenges = () => {
 
   const conclusionDesc = `While sexual violence and harassment are complex issues rooted in societal, cultural, and institutional frameworks, a combination of strong legal reforms, supportive workplace policies, and public awareness can create an environment where women feel safe and empowered. By implementing these solutions, society can make significant strides toward reducing incidents of harassment and ensuring that women have the resources and support needed to thrive without fear.`;
   return (
-    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
+    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 max-w-[1500px] m-auto">
       <div>
         <aside className="max-lg:hidden">
           <SideBarMenu />

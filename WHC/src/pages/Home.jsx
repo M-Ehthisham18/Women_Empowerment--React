@@ -10,7 +10,7 @@ import Askme from "../components/Askme";
 
 const Home = () => {
   return (
-    <div className="relative">
+    <div className="relative max-w-[1500px] m-auto">
       <div >
       <Hero />
       <Womens />
@@ -20,7 +20,7 @@ const Home = () => {
       <Role />
       <Footer />
       </div>
-      <div className=" ">
+      <div className=" max-w-[1200px] m-auto">
       <Askme />
       </div>
     </div>

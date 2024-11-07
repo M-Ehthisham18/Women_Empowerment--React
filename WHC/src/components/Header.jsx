@@ -53,7 +53,8 @@ const Header = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <nav className="flex justify-between items-center bg-indigo-600 max-lg:py-5 sm:px-6 px-5 py-3 relative">
+      <div className="w-full bg-indigo-600">
+      <nav className="flex justify-between items-center bg-indigo-600 max-lg:py-5 sm:px-6 px-5 py-3 relative max-w-[1400px] m-auto">
         <div className="text-white text-xl font-bold leading-5 xl:w-[unset] w-[20%]">
           <NavLink to="/">
             <div className="w-[48px] h-[48px] rounded-full bg-white flex items-center gap-x-3 ">
@@ -103,6 +104,7 @@ const Header = () => {
           </label>
         </StyledWrapper>
       </nav>
+      </div>
 
       {/* Overlay Menu */}
       {isMenuOpen && (

@@ -35,7 +35,7 @@ const GenderEquality = () => {
 
   const conclusionDesc = `To accelerate gender equality, an integrated approach involving legal, social, and corporate reforms is necessary. Addressing deep-rooted biases and implementing policies supporting equal pay, educational access, and political representation can lead to a fairer, more equitable society. Achieving true gender parity will require consistent global efforts across communities, governments, and organizations.`;
   return (
-    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
+    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 max-w-[1500px] m-auto">
       <div>
         <aside className="max-lg:hidden">
           <SideBarMenu />

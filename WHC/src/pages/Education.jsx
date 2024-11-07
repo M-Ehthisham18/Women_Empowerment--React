@@ -32,7 +32,7 @@ Early Marriages and Cultural Norms: Many young girls are forced into marriage at
 
   const conclusionDesc = `Empowering girls through education leads to societal benefits, including better health, economic growth, and gender equality. By implementing community-focused programs, expanding resources, and addressing systemic barriers, these strategies aim to build a future where every girl has access to safe and equitable education opportunities.`;
   return (
-    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
+    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 max-w-[1500px] m-auto ">
       <div>
         <aside className="max-lg:hidden">
           <SideBarMenu />

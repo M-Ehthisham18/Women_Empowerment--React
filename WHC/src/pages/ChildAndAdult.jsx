@@ -34,7 +34,7 @@ const ChildAndAdult = () => {
 
   const conclusionDesc = `For adult women, trauma from abuse, violence, or discrimination often goes unaddressed. A major barrier is the lack of mental health resources, as well as cultural stigmas that deter many from seeking help. Domestic violence alone can result in enduring mental health consequences, including depression and PTSD, exacerbating feelings of isolation and hopelessness. Limited access to trauma-informed care means many women are unable to process these experiences effectively, leading to lasting psychological scars.`;
   return (
-    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 ">
+    <div className="grid max-lg:grid-cols-[300px_1fr] grid-cols-1 max-w-[1500px] m-auto">
       <div>
         <aside className="max-lg:hidden">
           <SideBarMenu />
