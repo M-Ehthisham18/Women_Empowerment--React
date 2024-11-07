@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Card from "../components/stories/Card";
 import Hero from "../components/stories/Hero";
+import Askme from '../components/Askme'
 const Storyblog = () => {
   return (
     <div>
@@ -46,7 +47,7 @@ const Storyblog = () => {
           
         </div>
       </div>
-
+          <Askme/>
       <Footer />
     </div>
   );

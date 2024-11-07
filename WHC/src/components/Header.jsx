@@ -74,7 +74,7 @@ const Header = () => {
           />
           <Navlink route="/chat-bot" name="Chat Bot" />
           <Navlink route="/story-blog" name="Story Blog" />
-          <Navlink route="about" name="About us" />
+          <Navlink route="about" name="About Me" />
         </ul>
 
         <div className="md:block">
@@ -131,7 +131,7 @@ const Header = () => {
               <Navlink route="/story-blog" name="Story Blog" func="true" />
             </div>
             <div onClick={() => setIsMenuOpen(false)}>
-              <Navlink route="about" name="About us" />
+              <Navlink route="about" name="About Me" />
             </div>
             <div onClick={() => setIsMenuOpen(false)}>
               <a

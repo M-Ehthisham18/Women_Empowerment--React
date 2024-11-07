@@ -82,7 +82,7 @@ const Askme = () => {
           ></path>
         </svg>
       ) : (
-        <div className="fixed w-[400px] md:w-[600px] min-h-[600px] max-h-[80vh] h-[60vh] top-[20vh] right-[5%] bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg ">
+        <div className="fixed w-[400px] md:w-[500px] min-h-[600px] max-h-[80vh] h-[60vh] top-[20vh] right-[5%] bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg ">
           <div className="chat-header z-30 fixed w-[400px] md:w-[600px]">
                 <div className="header-info ">
                   <svg
