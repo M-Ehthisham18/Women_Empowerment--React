@@ -17,7 +17,7 @@ const Card = () => {
             <img
               src="https://portfolio-website-7qi.pages.dev/img/sham_photo_1.png"
               alt=""
-              className="h-[90%]"
+              className="h-[90%] rounded-[12px]"
             />
             <p className="title">M Ehthisham</p>
           </div>
