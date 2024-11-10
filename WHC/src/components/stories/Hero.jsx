@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-          <h2 className="text-center text-2xl max-lg:text-3xl text-violet-900 font-extrabold px-6 py-8">
+          <h2 className="text-center text-2xl max-lg:text-3xl text-violet-900 font-extrabold sm:px-6 py-8">
             Empowering Change: How Real Stories Inspire Resilience and Action
           </h2>
           <p className="text-center font-serif italic tracking-wider mb-4 ">
