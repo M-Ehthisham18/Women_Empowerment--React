@@ -54,7 +54,7 @@ const Header = () => {
     <>
       {/* Navigation Bar */}
       <div className="w-full bg-indigo-600">
-      <nav className="flex justify-between items-center bg-indigo-600 max-lg:py-5 sm:px-6 px-5 py-3 relative max-w-[1400px] m-auto">
+      <nav className="flex justify-between items-center bg-indigo-600 max-lg:py-5 sm:px-8 px-5 py-3 relative max-w-[1400px] m-auto">
         <div className="text-white text-xl font-bold leading-5 xl:w-[unset] w-[20%]">
           <NavLink to="/">
             <div className="w-[48px] h-[48px] rounded-full bg-white flex items-center gap-x-3 ">
@@ -66,7 +66,7 @@ const Header = () => {
             </div>
           </NavLink>
         </div>
-        <ul className="hidden max-lg:flex gap-x-3 lg:space-x-6 text-white text-lg font-extrabold items-center">
+        <ul className="hidden max-lg:flex gap-x-3 lg:space-x-6 text-white text-lg font-extrabold items-center pr-4">
           <Navlink route="/" name="Home" />
           <Navlink
             route="/resources"
@@ -77,7 +77,7 @@ const Header = () => {
           <Navlink route="about" name="About Me" />
         </ul>
 
-        <div className="md:block">
+        <div className="hidden">
           <a
             href="#"
             className="hidden max-lg:block bg-teal-500 text-white py-2 px-4 rounded-lg"
@@ -133,7 +133,7 @@ const Header = () => {
             <div onClick={() => setIsMenuOpen(false)}>
               <Navlink route="about" name="About Me" />
             </div>
-            <div onClick={() => setIsMenuOpen(false)}>
+            <div onClick={() => setIsMenuOpen(false)} className="hidden">
               <a
                 href="#"
                 className="w-[90%] text-center bg-teal-500 text-white py-2 px-4 rounded-lg"
