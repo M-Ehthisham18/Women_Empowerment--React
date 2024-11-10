@@ -24,6 +24,9 @@ const Storyblog = () => {
           Unfiltered Inspiration: Real Stories of Resilience
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 max-lg:grid-cols-3 w-full place-items-center gap-y-16 gap-x-1 m-auto mb-32">
+          <Card title="A Filipino Culinary Visionary's Impact on Media"
+            author="Leizel Olegario"
+            img="https://images.squarespace-cdn.com/content/v1/5b0eae802714e595728cdab2/1529342620183-19WMIIRH0YNCCQ1X2EC7/Leizel.jpg?format=750w"/>
           <Card
             title="Assistant Secretary-General for Safety and Security"
             author="Mbaranga Gasarabwe"
@@ -41,9 +44,6 @@ const Storyblog = () => {
           <Card title="Empowered by Mentorship: A Story of Inspiration "
             author="Yentyl Williams"
             img="https://images.squarespace-cdn.com/content/v1/5b0eae802714e595728cdab2/1529342466261-GD7F6VJH8PMGY9036BEA/Yentyl.jpg?format=750w"/>
-          <Card title="A Filipino Culinary Visionary's Impact on Media"
-            author="Leizel Olegario"
-            img="https://images.squarespace-cdn.com/content/v1/5b0eae802714e595728cdab2/1529342620183-19WMIIRH0YNCCQ1X2EC7/Leizel.jpg?format=750w"/>
           
         </div>
       </div>
